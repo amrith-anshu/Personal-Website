@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Personal Website</title>
+<style>
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ li {
+  float: left;
+}
+
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ li a:hover {
+  background-color: #111;
+}
+
+#Sidebar {
+  height: 50%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 150;
+  left: 0;
+  background-color:#F26D21;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+#Sidebar p,h3 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  display: block;
+}
+
+#Sidebar p:hoover {
+  color: #f1f1f1;
+}
+
+#Content {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  #Sidebar {padding-top: 15px;}
+  #Sidebar a {font-size: 18px;}
+}
+
+#Footer {
+  height: 20%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 600;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 5px;
+  font-size: 11px; 
+}
+
+.column3 {
+  float: left;
+  width: 35%;
+  padding: 5px;
+  font-size: 11px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+.active {
+  background-color: #111;
+}
+
+#list {
+   list-style-type: circle;
+      }
+
+</style>
+</head>
+<body style="background-color: #6FB3B8;">
+<div id="header" style="background-color: #FAB307;">
+<img src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png" alt="resumelogo" align="left" style="width:165px; height:45px; margin-right:15px;">
+
+<h1 style="font-family:verdana; font-weight: bold; text-align: center; ">
+        My Personal Website</h1>
+<hr>
+<hr>
+</div>
+<div id="navigation menu">
+<ul >
+  <li ><a href="website_homepage.html" >Home</a></li>
+  <li ><a href="website_aboutme.html">About Me</a></li>
+  <li ><a href="website_education.html">Education</a></li>
+  <li ><a href="website_resume.html">Resume</a></li>
+  <li ><a href="website_hobbies.html">Hobbies</a></li>
+  <li ><a class="active" href="website_contactme.html">Contact Me</a></li>
+</ul>
+</div>
+<div id="Sidebar" style="width:25% height:75% float:left;">
+  <h3 >My Timeline</h3>
+  <p>DOB - 02/03/2002</p>
+  <p>Primary School- 2006-2010 </p>
+  <p>Junior School - 2011-2016</p>
+  <p>CBSE Class 10 Board Exam - 2017</p>
+  <p>Telangana Board Inter Exam - 2019</p>
+  <p>B.Tech in Computer Science and Engineering - 2019-Present</p>
+  <br>
+</div>
+<div id="Content" style="width:75% height:75% float:right; font-family:verdana; font-size: 22px; background-color:#d5e1df;">
+<h2 style=" font-weight: bold; text-align: center; text-decoration: underline; ">Follow Me On</h2>
+
+<a href="mailto:kesoju_201900190@smit.smu.edu.in"><img src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" 
+	alt="email" align="left" style="width:185px; height:55px; margin-right:15px;"></a>
+<br><br>
+<a href="https://www.linkedin.com/in/kesoju-amrithanshu-956a17190/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" 
+	alt="linkedin" align="left" style="width:185px; height:55px; margin-right:15px;">
+<br><br>
+<a href="https://github.com/amrithanshu"><img src="http://pngimg.com/uploads/github/github_PNG83.png" 
+	alt="github" align="left" style="width:185px; height:55px; margin-right:15px;"></a>
+<br><br>
+<a href="https://www.instagram.com/amrith___anshu/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram" 
+	align="left" style="width:185px; height:55px; margin-right:15px;"></a>
+<br><br>
+<a href="https://www.youtube.com/channel/UCk6PI1jr4pQHFway0tKuSUw"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="Youtube" 
+	align="left" style="width:185px; height:55px; margin-right:15px;"></a><br>
+<br>
+<br>
+
+</div>
+
+<div id="footer">
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <b>Home Address</b>
+    <p>12-1-2/32,Road no:5,Plot no:12,<br>
+       Raghavendra nagar colony, Bandlaguda,<br>
+       Hyderabad, 500068,<br>
+       Telangana</p>  </div>
+  <div class="column" style="background-color:#bbb;">
+    <b>College Address</b>
+    <p>Sikkim Manipal Institute of Technology,<br>
+     Majitar,<br>
+     Rangpo,<br>
+     Sikkim 737136</p>
+  </div>
+  <div class="column3" style="background-color:#ccc;">
+    <b>Contact Details</b>
+    <p><a href="mailto:kesoju_201900190@smit.smu.edu.in">My Official Email</a><br>
+       <a href="https://www.linkedin.com/in/kesoju-amrithanshu-956a17190/">Linkedin Account</a><br>
+       <a href="https://github.com/amrithanshu">Github Account</a><br>
+       Phone: +91 9014131644<br>
+    </p>
+    </p>
+  </div>
+</div>
+</div>
+
+
+
+</body>
+</html>
